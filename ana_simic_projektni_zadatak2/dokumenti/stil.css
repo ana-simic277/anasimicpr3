@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.pozadina1 {
+	background-image: url("../slike/pozadina2.jpg");
+}
+.pozadina2 {
+	background-image: url("../slike/pozadina2.jpg");
+}
+@font-face {
+  font-family: "AnaFont";
+  src: url("ana_font.ttf") format("truetype");
+}
+
+h1 {
+  font-family: "AnaFont", sans-serif;
+  color:pink;
+  text-align: center;
+  font-weight: 350;
+  padding: 20px 40px;
+  font-size: 64px;
+}
+h2 {
+	font-family: Lucida Granda;
+	color: pink;
+	padding:20px;
+	Font-weight: 300;
+		
+}
+p{
+	color: rgba(70,172,58,1.00);
+	font-family: Lucida Granda;
+	font-size: 30px;
+	background-color: rgba(227,200,223,1.00);
+	padding: 20px;
+	font-size: 24px;
+}
+
